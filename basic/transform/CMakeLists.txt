@@ -16,6 +16,7 @@ include_directories(${OpenCV_INCLUDE_DIRS}
 
 add_executable(opengl_test
 triangle_transform.cpp
+# test_glm.cpp
 )
 
 target_link_libraries(opengl_test

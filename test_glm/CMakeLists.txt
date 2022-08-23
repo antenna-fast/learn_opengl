@@ -14,13 +14,9 @@ include_directories(${OpenCV_INCLUDE_DIRS}
                     ${EIGEN_INCLUDE_DIR}
                     glm)
 
-add_executable(opengl_test 
-# triangle.cpp
-# triangle_shader_communicate.cpp
-# triangle_uniform.cpp
-triangle_vertex_color.cpp
-# triangle_ebo.cpp
-# triangle_vao.cpp
+add_executable(opengl_test
+# triangle_transform.cpp
+test_glm.cpp
 )
 
 target_link_libraries(opengl_test
